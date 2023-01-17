@@ -4,16 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ShaheenAssignment</title>
-</head>
-<body>
-    <h1>World Wide Web</h1>
 
+    <title>ShaheenAssignment</title>
+
+    <!-- Internal CSS is added in the head part of HTML Code using STYLE Attribute.-->
+
+    <style>
+        .definition{
+            color: black;
+            background-color: rgb(142, 229, 200);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+
+    <!-- External CSS can be added using LINK Attribute inside head part-->
+
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+
+<body>
+
+    <!-- Inline CSS is added in the body part inside the elements in HTML code-->
+
+    <h1 style="color:black; background-color: cornflowerblue;">World Wide Web</h1>
+
+    <div class="definition">
     <p>The WorldWideWeb (W3) is a wide-area 
         <a href="./secondpage.html"> hypermedia</a>
        information rentrieval initiative aiming to give universal access to a large universe of documents.
     </p>
+    </div>
 
+    <div id="W3">
     <p>Everything there is online about W3 is linked directly or indirectly to this document, including an 
         <a href="https://www.youtube.com/"> executive summary</a>
         of the project, 
@@ -21,25 +44,28 @@
         <a href="https://www.google.com/"> Policy,</a>
         November's <a href="https://www.google.com/"> W3News,frequently asked questions</a>.
     </p>
+    </div>
 
     <!-- dl defines discription list-->
     <!-- dt defines terms in dl-->
     <!-- dd decribes the terms in dl -->
+
+    <div class="Services">
     <dl>
         <dt> <a href="https://www.google.com/"> What's out there? </a>
-            <dd>
+            <dd class="AboutUs">
             Pointers to the world's online information subjects W3servers etc
             </dd>
         </dt>
 
         <dt> <a href="https://www.youtube.com/"> Help</a>
-            <dd>
+            <dd class="Help">
                 on the browser you are using
             </dd>
         </dt>
 
         <dt> <a href="https://www.youtube.com/"> Software Products</a>
-            <dd>
+            <dd class="SP">
                 A list of W3 project components and their current state. (e.g. 
                 <a href="https://www.youtube.com/"> Line Mode,</a> 
                 <a href="https://www.google.com/"> X11 Viola,</a> 
@@ -47,45 +73,46 @@
                 <a href="https://www.google.com/"> Servers,</a>
                 <a href="https://www.google.com/"> Tools,</a>
                 <a href="https://www.google.com/"> Mail robot,</a>
-                <a href="https://www.google.com/"> Library.)</a>
+                <a href="https://www.google.com/"> Library</a>.)
             </dd>
         </dt>
 
         <dt> <a href="https://www.google.com/"> Technical</a>
-            <dd>
+            <dd class="Technical">
                 Details of protocols, formats, program internals etc
             </dd>
         </dt>
 
         <dt> <a href="https://www.google.com/"> Bibliography</a>
-            <dd>
+            <dd class="Bibliography">
                 Paper documentation on W3 and references
             </dd>
         </dt>
 
         <dt> <a href="https://www.google.com/"> People</a>
-            <dd>
+            <dd class="People">
                 Alist of some people involved in the project
             </dd>
         </dt>
 
         <dt> <a href="https://www.google.com/"> History</a>
-            <dd>
+            <dd class="History">
                 A summary of the history of the project
             </dd>
         </dt>
 
         <dt> <a href="https://www.google.com/"> How can I help ?</a>
-            <dd>
+            <dd class="HelpUs">
                 If you would like to support the web
             </dd>
         </dt>
 
         <dt> <a href="https://www.google.com/"> Getting code</a>
-            <dd>
+            <dd class="GetttingCode">
                 Getting the code by <a href="https://www.google.com/"> anonymous FTP,</a> etc.
             </dd>
         </dt>
     </dl>
+    </div>
 </body>
 </html>

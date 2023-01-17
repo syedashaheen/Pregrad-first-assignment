@@ -1,0 +1,81 @@
+
+/* Index Page Style Code */
+
+
+h1{
+    text-align: center;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: purple;
+}
+
+#W3{
+    color:brown;
+    font-style: oblique;
+    font-size: large;
+}
+
+.Services{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: burlywood;
+}
+
+.AboutUs{
+    background-color: bisque;
+}
+
+.Help{
+    background-color: antiquewhite;
+}
+
+.SP{
+    background-color: burlywood;
+}
+
+.Technical{
+    text-decoration-line: underline;
+    text-decoration-color:darkred;
+    background-color:rgb(247, 122, 247);
+}
+
+.Bibliography{
+    color: crimson;
+}
+
+.People{
+    background-color:khaki;
+}
+
+.History{
+    color: darkmagenta;
+}
+
+.HelpUs{
+    font: caption;
+}
+
+.GettingCode{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+
+
+
+/* SECOND PAGE STYLE CODE */
+
+h1{
+    background-color: cornflowerblue;
+}
+
+.para{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: darkseagreen;
+}
